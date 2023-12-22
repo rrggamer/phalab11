@@ -70,7 +70,7 @@ int main(){
 		playerCards[2] = drawCard();
   		playerScore = calScore(playerCards[0],playerCards[1],playerCards[2]);
 		cout << "Player draws the 3rd card!!!" << "\n";
-		cout << "Your 3rd card: " << playerCards[2] << "\n";
+		cout << "Your 3rd card: " << cardNames[yugiCards[2]] << "\n";
 		cout << "Your new score: " << playerScore << "\n";
 		
 	}
